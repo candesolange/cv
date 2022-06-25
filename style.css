@@ -1,13 +1,22 @@
 body{
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
+    background-color: #C9BEB3;
 
 }
 
 header{
-    background-color: #bf98ed;
+    background-color: #182E44;
     text-align: center;
     padding: 16px;
+}
+
+h1{
+    color: wheat;
+}
+
+p{
+    color: white;
 }
 
 .nombre{
@@ -26,7 +35,7 @@ p{
 
 
 .intro{
-    background-color: #f06292;
+    background-color: #593442;
     color: white;
     text-align: center;
     padding: 10px;
@@ -57,13 +66,13 @@ h3{
 .educacion{
     display: inline-block;
     width: 60%;
-    background-color: red;
+    /* background-color: red; */
     /* align: "center"; */
 }
 
 /* IMAGEN */
 img{
-    width: 30%;
+    width: 80%;
     display: inline-block;
     float: right;
     vertical-align: top;
@@ -73,14 +82,15 @@ img{
     
 }
 
+.imagen{
+    display: inline-block;
+    width: 30%;
+}
+
 .lista2{
     margin-top: 70px;
 }
 
-
-.lista3{
-    margin-top: 70px
-}
 
 dt{
     font-size: 20px;
@@ -104,4 +114,11 @@ li{
     margin-top: 16px;
 }
 
+hr{
+   color: #182E44;
+   background-color: #182E44;
+   height: 4px;
+   border-radius: 2%;
+   margin-top: 30px;
+}
 
